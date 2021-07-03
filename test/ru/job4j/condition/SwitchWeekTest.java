@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class SwitchWeekTest {
 
     @Test
-    public void nameOfDay() {
+    public void namePyatnicaDay5() {
         int i = 5;
         String out = SwitchWeek.nameOfDay(i);
         String expected = "Пятница";
