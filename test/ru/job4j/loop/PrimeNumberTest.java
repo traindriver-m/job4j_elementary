@@ -30,4 +30,12 @@ public class PrimeNumberTest {
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void when7() {
+        int finish = 7;
+        int result = PrimeNumber.calc(finish);
+        int expected = 4;
+        Assert.assertEquals(expected, result);
+    }
 }
